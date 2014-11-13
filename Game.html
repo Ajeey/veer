@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<title>A Game</title>
+		<link rel="shortcut icon" href="img/play_music.ico">
+		<link rel="stylesheet" type="text/css" href="loading.css">	
+		<link rel="stylesheet" type="text/css" href="Game.css">	
+		<!-- <link href="http://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet" /> -->
+		<script src="jquery-2.1.1.js"></script>
+		<script src="games.js"></script>
+		<style>
+			html { background-color: black; }
+		</style>
+	</head>
+<body>
+	<div class="y">
+		<h1><center>Mind Reader Game</center></h1>
+	</div>
+	
+	<div class="game-desc">
+		<ol class="z">
+			<li>Think of any number between 10-99(eg.33)</li>
+			<li>Add the induvidual numbers(eg.3+3=6)</li>
+			<li>	Subtract the Added number with the original number(eg.33-6=27)</li>
+			<li>	Look at the image corresponding to 27</li>
+			<li>"PAUL" will read your mind and display the corresponding image</li>
+		</ol>
+	</div>
+
+
+	<div class="container">
+		<div class="g1">
+			<ul>
+				<li>1 <img src="img/1.jpg" ></li>
+				<li>2 <img src="img/2.jpg" ></li>
+				<li>3 <img src="img/3.jpg" ></li>
+				<li>4 <img src="img/4.jpg"></li>
+				<li>5 <img src="img/5.jpg"></li>
+				<li>6 <img src="img/6.jpg" ></li>
+				<li>7 <img src="img/7.jpg" ></li>	
+				<li>8 <img src="img/8.jpg" ></li>
+				<li>9 <img src="img/9.jpg" class="nine" ></li>
+				<li>10 <img src="img/19.jpg"></li>
+			</ul>	
+		</div>
+
+		<div class="g1">
+			<ul>
+				<li>11 <img src="img/11.jpg" ></li>
+				<li>12 <img src="img/12.jpg" ></li>
+				<li>13 <img src="img/13.jpg" ></li>
+				<li>14 <img src="img/14.jpg"></li>
+				<li>15 <img src="img/1.jpg"></li>
+				<li>16 <img src="img/6.jpg" ></li>
+				<li>17 <img src="img/7.jpg" ></li>	
+				<li>18 <img src="img/11.jpg" class="nine" /></li>
+				<li>19 <img src="img/9.jpg" ></li>
+				<li>20 <img src="img/15.jpg"></li>
+			</ul>	
+		</div>
+
+		<div class="g1">
+			<ul>
+				<li>21 <img src="img/16.jpg" ></li>
+				<li>22 <img src="img/2.jpg" ></li>
+				<li>23 <img src="img/3.jpg" ></li>
+				<li>24 <img src="img/4.jpg"></li>
+				<li>25 <img src="img/11.jpg"></li>
+				<li>26 <img src="img/6.jpg" ></li>
+				<li>27 <img src="img/19.jpg" class="nine" /></li>	
+				<li>28 <img src="img/18.jpg" ></li>
+				<li>29 <img src="img/11.jpg" ></li>
+				<li>30 <img src="img/10.jpg"></li>
+			</ul>	
+		</div>
+
+
+		<div class="g1">
+			<ul>
+				<li>31 <img src="img/11.jpg" ></li>
+				<li>32 <img src="img/12.jpg" ></li>
+				<li>33 <img src="img/3.jpg" ></li>
+				<li>34 <img src="img/14.jpg"></li>
+				<li>35 <img src="img/5.jpg"></li>
+				<li>36 <img src="img/6.jpg" class="nine" /></li>
+				<li>37 <img src="img/17.jpg" ></li>	
+				<li>38 <img src="img/8.jpg" ></li>
+				<li>39 <img src="img/12.jpg" ></li>
+				<li>40 <img src="img/4.jpg"></li>
+			</ul>	
+		</div>	
+
+
+		<div class="g1">
+			<ul>
+				<li>41 <img src="img/1.jpg" ></li>
+				<li>42 <img src="img/2.jpg" ></li>
+				<li>43 <img src="img/13.jpg" ></li>
+				<li>44 <img src="img/14.jpg"></li>
+				<li>45 <img src="img/7.jpg" class="nine" /></li>
+				<li>46 <img src="img/16.jpg"></li>
+				<li>47 <img src="img/17.jpg" ></li>	
+				<li>48 <img src="img/8.jpg" ></li>
+				<li>49 <img src="img/13.jpg" ></li>
+				<li>50 <img src="img/18.jpg"></li>
+			</ul>	
+		</div>	
+
+
+		<div class="g1">
+			<ul>
+				<li>51 <img src="img/1.jpg" ></li>
+				<li>52 <img src="img/2.jpg" ></li>
+				<li>53 <img src="img/13.jpg" ></li>
+				<li>54 <img src="img/19.jpg" class="nine"></li>
+				<li>55 <img src="img/15.jpg"></li>
+				<li>56 <img src="img/4.jpg"  /></li>
+				<li>57 <img src="img/7.jpg" ></li>	
+				<li>58 <img src="img/18.jpg" ></li>
+				<li>59 <img src="img/19.jpg" ></li>
+				<li>60 <img src="img/10.jpg"></li>
+			</ul>	
+		</div>
+
+		<div class="g1">
+			<ul>
+				<li>61 <img src="img/11.jpg" ></li>
+				<li>62 <img src="img/2.jpg" ></li>
+				<li>63 <img src="img/19.jpg" class="nine" /></li>
+				<li>64 <img src="img/14.jpg" ></li>
+				<li>65 <img src="img/15.jpg"></li>
+				<li>66 <img src="img/6.jpg"></li>
+				<li>67 <img src="img/17.jpg" ></li>	
+				<li>68 <img src="img/8.jpg" ></li>
+				<li>69 <img src="img/9.jpg" ></li>
+				<li>70 <img src="img/6.jpg"></li>
+			</ul>	
+		</div>
+
+		<div class="g1">
+			<ul>
+				<li>71 <img src="img/1.jpg" ></li>
+				<li>72 <img src="img/3.jpg" class="nine" /></li>
+				<li>73 <img src="img/13.jpg" ></li>
+				<li>74 <img src="img/14.jpg" ></li>
+				<li>75 <img src="img/5.jpg"></li>
+				<li>76 <img src="img/16.jpg"></li>
+				<li>77 <img src="img/7.jpg" ></li>	
+				<li>78 <img src="img/8.jpg" ></li>
+				<li>79 <img src="img/9.jpg" ></li>
+				<li>80 <img src="img/10.jpg"></li>
+			</ul>	
+		</div>
+
+		<div class="g1">
+			<ul>
+				<li>81 
+					<img src="img/19.jpg" class="nine" />
+				</li>
+				<li>82 <img src="img/2.jpg" ></li>
+				<li>83 <img src="img/3.jpg" ></li>
+				<li>84 <img src="img/4.jpg" ></li>
+				<li>85 <img src="img/5.jpg"></li>
+				<li>86 <img src="img/6.jpg"></li>
+				<li>87 <img src="img/7.jpg" ></li>	
+				<li>88 <img src="img/8.jpg" ></li>
+				<li>89 <img src="img/19.jpg" ></li>
+				<li>90 <img src="img/9.jpg" class="nine" /></li>
+			</ul>	
+		</div>	
+
+		<div class="g1">
+			<ul>
+				<li>91 <img src="img/1.jpg" ></li>
+				<li>92 <img src="img/12.jpg" ></li>
+				<li>93 <img src="img/3.jpg" ></li>
+				<li>94 <img src="img/14.jpg"></li>
+				<li>95 <img src="img/5.jpg"></li>
+				<li>96 <img src="img/16.jpg" ></li>
+				<li>97 <img src="img/7.jpg" ></li>	
+				<li>98 <img src="img/18.jpg" ></li>
+				<li>99 <img src="img/8.jpg" class="nine" /></li>
+				<li>100 <img src="img/10.jpg"></li>
+			</ul>
+		</div>	
+
+			<img src="img/paul2.jpg" id="paul" class="no-change">
+			<h1>Paul the Octopus will read your mind!</h1>
+			<button id="my-button">
+			Get Paul's Answer	
+			</button>
+
+			<img src="  " id="final" class="no-change">
+			<div class="spinner veer-loading">
+				  <div class="rect1"></div>
+				  <div class="rect2"></div>
+				  <div class="rect3"></div>
+				  <div class="rect4"></div>
+				  <div class="rect5"></div>
+				  <p><center>READING.....</center></p>
+
+			</div>
+		
+		</div>
+	</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+

@@ -1,0 +1,328 @@
+<!doctype html>
+<html  lang="en-US">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="author" content="Veeresh Charantimath" />
+    <meta name="Resource-type" content="Document" />
+    <link rel="shortcut icon" href="favicon/favicon1.ico" />
+    <meta name="description" content="Veeresh Charantimath Personal Website" />
+    <meta name="author" content="Veeresh Charantimath">
+    <meta name="keywords"  content="Veeresh,Charantimath,Belgaum,Personal,Onepage Scroll,Game" />
+    <title>Veeresh's Site</title>
+
+
+    
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css" />
+    <link rel="stylesheet" type="text/css" href="css/mouse.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/main1.css">
+    <link rel="stylesheet" type="text/css" href="flat/flaticon.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<link rel="stylesheet" type="text/css" href="css/icons.css" />
+	<link rel="stylesheet" type="text/css" href="css/style5.css" />
+	<link rel="stylesheet" type="text/css" href="css/onepage-scroll.css">
+	<link rel="stylesheet" type="text/css" href="skk.css">
+	<link rel="stylesheet" type="text/css" href="veer.css">
+	
+
+
+
+
+
+    
+
+
+
+
+	<script src="js/jquery-2.1.1.min.js"></script>
+	<script src="js/Modernizr.js"></script>
+	<script src="js/jquery.onepage-scroll.js"></script>
+    <script src="js/typed.js"></script>
+    <script src="js/fsvs.js"></script>
+	<script src="js/queryloader2.min.js"></script>
+	<script src="intro.js"></script>
+	<script src="skills.js"></script>
+	<script src="color.js"></script>
+    <script src="scroll.js"></script>
+    <script src="s.js"></script>
+    
+
+
+	
+
+	
+
+
+
+
+
+	
+
+
+
+
+ 	<script>
+        window.addEventListener('DOMContentLoaded', function() {
+            new QueryLoader2(document.querySelector("body"), {
+            barColor: "#7FE817",
+            backgroundColor: "#0C090A",
+            percentage: true,
+            barHeight: 8,
+            minimumTime: 800,
+            fadeOutTime: 100
+
+        	});
+   		});
+	</script>
+
+
+
+	<script>
+        $(document).ready(function() {
+         	$(".main").onepage_scroll({
+                sectionContainer: "section", 
+                easing: "ease-out",
+                animationTime: 1000,
+                pagination: true,
+                updateURL: false,
+                beforeMove: function(index) {},  
+   				afterMove: function(index) {},   
+   				loop: true,                   
+  				 keyboard: false,                  
+   				responsiveFallback: false,       
+   				direction: "vertical"         
+            });
+        });
+    </script>
+
+
+    <script>
+    	$(function(){
+        	$("#typed").typed({
+	            strings: ["Hi there", " Welcome", " I'm", "\n VEERESH \n CHARANTIMATH "],
+	            typeSpeed: 30,
+	            backDelay: 1000,
+	            loop: false,
+	            loopCount: false,
+	            callback: function(){ foo(); },
+	            resetCallback: function() { newTyped(); }
+       		});
+       		$(".reset").click(function(){
+            	$("#typed").typed('reset');
+        	});
+    	});
+    	function newTyped(){ /* A new typed object */ }
+    	function foo(){ console.log("Callback"); }
+    </script>
+</head>
+
+
+
+
+
+
+<body>
+	<div class="main">
+        <section class="page1">
+            <div class="page_container">
+         		<div id="gradient" />
+    		       	<div class="wrap">
+    					<h1 class="h1"></h1>
+    						<div class="type-wrap">
+    							<span id="typed" style="white-space:pre"></span>
+    								<div class="aniWrap">
+      									<div class="mouse">
+        									<div class="scroller">
+        									</div>
+                                        </div>
+      								</div>
+    						</div>
+    				</div>
+               	</div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+        <section class="page2">
+            <div class="page_container">
+                <div id="intro88">
+                    <p>An Aspiring Web Developer.</p>
+                    <p>I have a strong passion for anything
+                                web related, mostly developing web applications.</p>
+                </div>
+                <div id="intro99">
+                           
+                    <p>I also fancy doing some styling.</p>
+                    <p> Great web design without functionality is like a sports car with no engine.</p>
+                </div>
+                <div id="intro77">
+                           
+                    <p>I  <i class="fa fa-heart"></i>  open source and everything about it to its very nature.</p>
+                    <p>Free software is a matter of liberty, not price.</p>
+                </div>
+                <div id="intro66">
+                           
+                    <p>Beside coding,designing I like to fiddle with Codepen and an avid reader of Tech Magzines</p>
+                    <p>Like to Rap Like A God !</p>
+                </div>
+                	<hr class="line" width="40%">
+                	<hr class="line1" width="40%">
+                    <img class="me" src="profile.jpg">
+                    <div id="what">
+                    <p><h1><center> What I  <i  id="lo" class="fa fa-heart"></i>  To Do</h1></p>
+                    </div>
+
+                    <div class="icon"> <i class="fa fa-code">
+                    	</i><h2 class="develop"> Development</h2>
+
+                    </div>
+                    <div class="icon1"><i class="fa fa-cogs"></i></i>
+                    		<h2 class="gaming"> Design</h2>
+                    </div>
+                    <div class="icon2"> <i class="fa fa-lightbulb-o"></i>
+                    	<h2 class="open"> Open Source</h2>
+                    </div>
+                    <div class="icon3"> <i class="fa fa-globe"></i>
+                    	<h2 class="other"> The World</h2>
+                    </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+               
+        <section class="page3">
+            <div class="page_container">
+                <div class="skills-holder">
+                    <h2><center class="sk1"><i class="fa fa-bolt"></i>  My Skills</center></h2>
+                		<div class="skill">
+                    			<label>HTML</label>
+                    	<div class="skill-bar">
+                            <div data-level="90" class="level html"></div>
+                    	    </div>
+                		</div>
+                		<div class="skill">
+                    				<label>CSS</label>
+                    	<div class="skill-bar">
+                        		<div data-level="80" class="level css"></div>
+                    			</div>
+                		</div>
+                		<div class="skill">
+                    				<label>jQuery</label>
+                    	<div class="skill-bar">
+                        		<div data-level="80" class="level jquery"></div>
+                    	        </div>
+                		</div>
+                		<div class="skill">
+                   					 <label>JavaScript</label>
+                    	<div class="skill-bar">
+                        		<div data-level="70" class="level javascript"></div>
+                    			</div>
+                		</div>
+                		<div class="skill">
+                    			<label>PHP</label>
+                    	<div class="skill-bar">
+                        		<div data-level="65" class="level php"></div>
+                    			</div>
+                		</div>
+                		<div class="skill">
+                    		<label>MySQL</label>
+                    	<div class="skill-bar">
+                        	   <div data-level="65" class="level mysql"></div>
+                   			</div>
+                		</div>
+            	</div>
+            </div>
+        </section>
+               
+
+
+            <section class="page4">
+                <div class="page_container">
+                    
+                	<div class="icon5">
+                		<center><i class="fa fa-paper-plane-o"></i></center>
+                		<h2><center><ins>Are you interested?</ins><br><br><br>Whether you have an interesting project or <br>just want to say hi, feel free to shoot me a message.</h2><center>
+                        <a class="arrow-down" href="#"></a>
+                	</div>
+                </div>
+        	</section>
+        	
+        	
+    		<script type="text/javascript">
+            	$(".main").onepage_scroll({
+              		sectionContainer: "section",
+              		easing: "cubic-bezier(0.175, 0.885, 0.420, 1.310)"
+            	});
+        	</script>
+        
+    </div>
+
+
+
+    	
+
+
+
+
+
+
+
+
+
+
+	<div class="footer">
+  		<div id="button"></div>
+			<div id="container">
+
+
+            <center><h3 id="foot">Made with    <i class="fa fa-heart"></i>           <br>      Belgaum,India</center>
+
+           <h3 id="foot1"> <i class="fa fa-copyright"></i>   Veeresh Charantimath <br><center>2014</center> </h3>
+
+
+
+                    
+				<div class="lefticons">
+					<a href="http://www.w3schools.com" target="_blank">
+					<i class="fa fa-facebook-square"></i>  
+					<a href="http://www.w3schools.com" target="_blank">                       
+					<i class="fa fa-github"></i>
+					<a href="http://www.w3schools.com" target="_blank">
+					<i class="fa fa-twitter-square"></i> 
+					<a href="http://www.w3schools.com" target="_blank">
+					<i class="fa fa-steam-square"></i>
+					<div id="cont">
+					<div class="footer_center">
+	  					
+					</div>
+				</div>
+			</div>
+	</div>
+</body>
+
+
+
+<script src="js/classie.js"></script>
+<script src="js/borderMenu.js"></script>
+
+</html>

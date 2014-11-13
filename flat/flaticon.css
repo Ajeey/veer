@@ -1,0 +1,23 @@
+@font-face {
+	font-family: "Flaticon";
+	src: url("flat/flaticon.eot");
+	src: url("flat/flaticon.eot#iefix") format("embedded-opentype"),
+	url("flat/flaticon.woff") format("woff"),
+	url("flat/flaticon.ttf") format("truetype"),
+	url("flat/flaticon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}.flaticon-mobile26:before {
+	content: "\e000";
+}
+.flaticon-smartphone11:before {
+	content: "\e001";
+}

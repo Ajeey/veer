@@ -1,0 +1,9 @@
+%[if edit]%
+
+.scrollFadeConfig {
+	text-align: center;
+}
+
+#fade%id% {
+	opacity: 1.00;
+}%[endif]%

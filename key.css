@@ -1,0 +1,16 @@
+@keyframes html5 { 
+  0%  { width:0px;} 
+  100%{ width:70%;}  
+}
+@keyframes css3 {
+  0%  { width:0px;} 
+  100%{ width:90%;}  
+}
+@keyframes jquery {
+  0%  { width:0px;}
+  100%{ width:50%;}
+}
+@keyframes photoshop {
+  0%  { width:0px;} 
+  100%{ width:60%;}  
+}

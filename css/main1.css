@@ -1,0 +1,73 @@
+.wrap{
+	max-width: 600px;
+	margin:150px auto;
+	text-align: center;
+	font-family: myFont;
+}
+
+
+
+.type-wrap{
+	font-family: myFont;
+	font-size: 30px;
+	margin:20px auto;
+	padding:20px;
+	border-radius:1px ;
+	border:#CCC 1px solid black;
+	text-align: center;
+	color:#0C090A;
+}
+
+
+		
+.typed-cursor{
+          	 opacity: 1;
+          	font-weight: 100;
+            color: #0C090A;
+             padding: 0 2px 0 2px;
+      		margin-left: 3px;
+            -webkit-animation: blink 0.4s infinite;
+            -moz-animation: blink 0.4s infinite;
+            -ms-animation: blink 0.4s infinite;
+            -o-animation: blink 0.4s infinite;
+            animation: blink 0.4s infinite;
+        }
+        @-keyframes blink{
+            0% { opacity:10; }
+            50% { opacity:0; }
+            100% { opacity:10; }
+        }
+        @-webkit-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-moz-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-ms-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-o-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+}
+
+#hold{
+
+
+	top:0;
+	bottom:0;
+}
+
+
+
+
+
+

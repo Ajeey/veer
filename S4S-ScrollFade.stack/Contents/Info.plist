@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.stacks4stacks.stacks.scrollfade</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.1</string>
+	<key>CFBundleVersion</key>
+	<string>1.0.1</string>
+	<key>RWAddonAuthor</key>
+	<string>Stacks4Stacks</string>
+	<key>RWAddonManagerIconAsset</key>
+	<string>scrollfadeIcon</string>
+	<key>RWAddonSupportURL</key>
+	<string>https://stacks4stacks.com/support/</string>
+	<key>SUFeedURL</key>
+	<string>http://www.stacks4stacks.com/appcast/appcast.php</string>
+	<key>cssFile</key>
+	<string>styles.css</string>
+	<key>customItems</key>
+	<array>
+		<dict>
+			<key>default</key>
+			<integer>1000</integer>
+			<key>group</key>
+			<string>ScrollFade Settings</string>
+			<key>id</key>
+			<string>speed</string>
+			<key>max</key>
+			<integer>30000</integer>
+			<key>min</key>
+			<integer>0</integer>
+			<key>title</key>
+			<string>Fade Speed</string>
+			<key>toolTip</key>
+			<string>Specify a fade-in speed in milliseconds.</string>
+			<key>type</key>
+			<string>number</string>
+			<key>units</key>
+			<string>ms</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<integer>0</integer>
+			<key>group</key>
+			<string>ScrollFade Settings</string>
+			<key>id</key>
+			<string>delay</string>
+			<key>max</key>
+			<integer>30000</integer>
+			<key>min</key>
+			<integer>0</integer>
+			<key>title</key>
+			<string>Fade Delay</string>
+			<key>toolTip</key>
+			<string>Use this setting to delay when the fade-in begins. Time is specified in milliseconds.</string>
+			<key>type</key>
+			<string>number</string>
+			<key>units</key>
+			<string>ms</string>
+		</dict>
+		<dict>
+			<key>group</key>
+			<string>ScrollFade Settings</string>
+			<key>type</key>
+			<string>divider</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<integer>0</integer>
+			<key>group</key>
+			<string>ScrollFade Settings</string>
+			<key>id</key>
+			<string>inactive_opacity</string>
+			<key>max</key>
+			<integer>99</integer>
+			<key>min</key>
+			<integer>0</integer>
+			<key>title</key>
+			<string>Inactive Opacity</string>
+			<key>toolTip</key>
+			<string>Sets the opacity (visibility) of inactive ScrollFade containers. Opacity is specified in percentage units of measurement, between 0 and 99.</string>
+			<key>type</key>
+			<string>number</string>
+			<key>units</key>
+			<string>%</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<integer>99</integer>
+			<key>group</key>
+			<string>ScrollFade Settings</string>
+			<key>id</key>
+			<string>active_opacity</string>
+			<key>max</key>
+			<integer>99</integer>
+			<key>min</key>
+			<integer>0</integer>
+			<key>title</key>
+			<string>Active Opacity</string>
+			<key>toolTip</key>
+			<string>Sets the opacity (visibility) of active ScrollFade containers. Opacity is specified in percentage units of measurement, between 0 and 99.</string>
+			<key>type</key>
+			<string>number</string>
+			<key>units</key>
+			<string>%</string>
+		</dict>
+	</array>
+	<key>group</key>
+	<string>Stacks4Stacks</string>
+	<key>helpURL</key>
+	<string>http://www.stacks4stacks.com/scrollfade/</string>
+	<key>icon</key>
+	<string>icon</string>
+	<key>infoURL</key>
+	<string>http://www.stacks4stacks.com/scrollfade/</string>
+	<key>javascriptFile</key>
+	<string>script.js</string>
+	<key>javascriptLib</key>
+	<string>jQuery</string>
+	<key>subtitle</key>
+	<string>Fade-in content as a page is scrolled.</string>
+	<key>templateFile</key>
+	<string>template.html</string>
+	<key>title</key>
+	<string>ScrollFade</string>
+</dict>
+</plist>

@@ -1,0 +1,1 @@
+Stack designed and developed by Will Woodgate. Inspired by: http://stackoverflow.com/questions/9232760/how-can-i-get-my-div-to-fade-back-out-with-jquery
